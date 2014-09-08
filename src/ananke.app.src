@@ -1,0 +1,12 @@
+{application, ananke,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ananke_app, []}},
+  {env, []}
+ ]}.

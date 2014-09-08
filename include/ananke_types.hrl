@@ -1,0 +1,5 @@
+-type actor() :: term().
+-type event() :: pos_integer().
+-type dot() :: {actor(), event()}.
+-type value() :: term().
+-type version_vector() :: orddict:orddict({actor(), event()}).
